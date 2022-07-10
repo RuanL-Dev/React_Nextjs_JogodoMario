@@ -1,7 +1,10 @@
+import Title from '../src/components/title/Title'
+
+
 function HomePage () {
   return (
     <div>
-      Hello Word
+      <Title>Mario Jump</Title>
     </div>
   )
 }
