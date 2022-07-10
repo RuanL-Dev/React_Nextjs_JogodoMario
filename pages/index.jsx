@@ -1,11 +1,9 @@
-import Title from '../src/components/title/Title'
+import GamePage from '../src/components/gamePage/GamePage'
 
 
 function HomePage () {
   return (
-    <div>
-      <Title>Mario Jump</Title>
-    </div>
+    <GamePage />
   )
 }
 

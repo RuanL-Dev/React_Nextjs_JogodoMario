@@ -1,0 +1,9 @@
+.gameBoard {
+  box-sizing: border-box;
+  min-width: 80%;
+  min-height: 500px;
+  border: 2px solid #333;
+  margin: 50px;
+  background-color: blue;
+
+}
