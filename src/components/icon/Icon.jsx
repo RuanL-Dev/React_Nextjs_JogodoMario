@@ -1,13 +1,10 @@
-function Icon ({ iconName, size, link }) {
+function Icon ({ iconName, type, width, height, link }) {
   return (
     <a href={link} target="_blank" >
-      <img src={`/icons/${iconName}.svg`} width={size} />
+      <img src={`/image/${iconName}.${type}`} width={width} height={height} />
     </a>
   )
 }
 
-Icon.defaultProps = {
-  size: '30px'
-}
 
 export default Icon

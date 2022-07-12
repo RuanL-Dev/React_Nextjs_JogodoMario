@@ -10,7 +10,7 @@ function Header () {
       <Title>Mario Jump</Title>
       <Subtitle>Criado por Ruan Gomes</Subtitle>
       <div className={styles.iconContent}>
-        <Icon iconName="github" link="https://github.com/RuanL-Dev" />
+        <Icon iconName="github" type="svg"  link="https://github.com/RuanL-Dev" width="30px" />
       </div>
     </div>
   )
