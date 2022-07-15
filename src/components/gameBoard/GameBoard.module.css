@@ -1,7 +1,7 @@
 .gameBoard {
   box-sizing: border-box;
   width: 80%;
-  height: 500px;
+  height: 62vh;
   border: 2px solid #333;
   margin: 0 auto;
   position: relative;
@@ -11,14 +11,49 @@
 .pipe {
   position: absolute;
   bottom: 0;
-  animation: pipeAnimation 2.5s infinite linear;
+  animation: pipeAnimation 3s infinite linear;
+}
+
+.mario {
+  bottom: 0;
+  position: absolute;
+  
+  
+}
+
+.jump {
+  animation: jump 500ms ease-out; 
+  
 }
 
 @keyframes pipeAnimation {
   from {
-    right: 0;
+    right: -80px;
   }
   to {
     right: 100%;
   }
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+
+  40% {
+    bottom: 190px;
+  }
+
+  50% {
+    bottom: 190px;
+  }
+
+  60% {
+    bottom: 190px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+
 }
